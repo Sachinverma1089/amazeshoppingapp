@@ -13,6 +13,7 @@ const bodyParser = require('body-parser');
 const authRouter=require('./routes/auth.js');
 const adminRouter = require('./routes/admin.js');
 const productRouter = require('./routes/product.js');
+const userRouter = require('./routes/user.js');
 
 
 
@@ -29,6 +30,7 @@ app.use(bodyParser.json())
 app.use(authRouter);
 app.use(adminRouter);
 app.use(productRouter);
+app.use(userRouter);
 
 
 //Connections
