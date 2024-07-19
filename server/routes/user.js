@@ -107,7 +107,7 @@ userRouter.post('/api/order',auth,async(req,res)=>{
       products,
       totalPrice,
       address,
-      userId: req.user,
+      userId: req.user.toString(),
       orderedAt: Date.now(),
     });
     order = await order.save();
