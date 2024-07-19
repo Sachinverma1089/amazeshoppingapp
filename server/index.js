@@ -1,10 +1,11 @@
 // imports from packages
 require('dotenv').config();
+var cron = require('node-cron');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-
+const https = require('https');
 
 
 
@@ -48,3 +49,22 @@ app.listen(PORT,"0.0.0.0",()=>{
     console.log(`Server running on http://0.0.0.0:${PORT}`);
 })
 // localhost
+
+
+const backendUrl = "https://amazeshoppingapp.onrender.com";
+cron.schedule("*/10 * * * *", function () {
+  console.log("Restarting server");
+
+  https
+    .get(backendUrl, (res) => {
+        
+      if (res.statusCode === 200) {
+        console.log("Restarted");
+      } else {
+        console.error(`failed to restart with status code: ${res.statusMessage}`);
+      }
+    })
+    .on("error", (err) => {
+      console.error("Error ", err.message);
+    });
+});
