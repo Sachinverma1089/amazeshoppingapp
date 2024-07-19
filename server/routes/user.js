@@ -93,7 +93,7 @@ userRouter.post('/api/order',auth,async(req,res)=>{
       let product = await Product.findById(cart[i].product._id);
       if(product.quantity>=cart[i].quantity){
         product.quantity-=cart[i].quantity;
-        product.push({product,quantity:cart[i].quantity});
+        products.push({product,quantity:cart[i].quantity});
         await product.save();
       }else{
         return res.status(400).json({msg:`${product.name} is out of stock!`});
