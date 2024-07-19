@@ -1,6 +1,7 @@
 import 'dart:ui';
-import 'package:amazon_clone_project/common/widgets/custom_button.dart';
-import 'package:amazon_clone_project/features/admin/services/admin_service.dart';
+
+import 'package:amazeshoppingapp/common/widgets/custom_button.dart';
+import 'package:amazeshoppingapp/features/admin/services/admin_service.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';

@@ -1,6 +1,6 @@
-import 'package:amazon_clone_project/features/account/services/account_sevices.dart';
-import 'package:amazon_clone_project/features/account/widgets/single_product.dart';
-import 'package:amazon_clone_project/features/order_details/screens/order_details.dart';
+import 'package:amazeshoppingapp/features/account/services/account_sevices.dart';
+import 'package:amazeshoppingapp/features/account/widgets/single_product.dart';
+import 'package:amazeshoppingapp/features/order_details/screens/order_details.dart';
 import 'package:flutter/material.dart';
 import '../../../common/widgets/loader.dart';
 import '../../../constants/global_variables.dart';

@@ -1,4 +1,5 @@
-import 'package:amazon_clone_project/features/account/services/account_sevices.dart';
+
+import 'package:amazeshoppingapp/features/account/services/account_sevices.dart';
 import 'package:flutter/material.dart';
 
 import 'account_button.dart';

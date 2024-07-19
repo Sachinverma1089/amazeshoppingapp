@@ -1,6 +1,7 @@
 import 'dart:ui';
-import 'package:amazon_clone_project/constants/utils.dart';
-import 'package:amazon_clone_project/features/address/services/address_service.dart';
+
+import 'package:amazeshoppingapp/constants/utils.dart';
+import 'package:amazeshoppingapp/features/address/services/address_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pay/pay.dart';

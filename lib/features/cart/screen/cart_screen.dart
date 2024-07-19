@@ -1,7 +1,8 @@
-import 'package:amazon_clone_project/common/widgets/custom_button.dart';
-import 'package:amazon_clone_project/features/cart/widgets/cart_product.dart';
-import 'package:amazon_clone_project/features/cart/widgets/cart_subtotal.dart';
-import 'package:amazon_clone_project/features/home/widgets/address_box.dart';
+
+import 'package:amazeshoppingapp/common/widgets/custom_button.dart';
+import 'package:amazeshoppingapp/features/cart/widgets/cart_product.dart';
+import 'package:amazeshoppingapp/features/cart/widgets/cart_subtotal.dart';
+import 'package:amazeshoppingapp/features/home/widgets/address_box.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

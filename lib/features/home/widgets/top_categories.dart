@@ -1,4 +1,5 @@
-import 'package:amazon_clone_project/features/home/screens/category_deals_screen.dart';
+
+import 'package:amazeshoppingapp/features/home/screens/category_deals_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/global_variables.dart';

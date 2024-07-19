@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import 'package:amazon_clone_project/features/auth/screens/auth_screen.dart';
+import 'package:amazeshoppingapp/features/auth/screens/auth_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;

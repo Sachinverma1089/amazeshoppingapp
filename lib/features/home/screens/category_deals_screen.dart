@@ -1,7 +1,6 @@
 import 'dart:ui';
-
-import 'package:amazon_clone_project/features/home/services/home_services.dart';
-import 'package:amazon_clone_project/features/product_details/screens/product_details_screen.dart';
+import 'package:amazeshoppingapp/features/home/services/home_services.dart';
+import 'package:amazeshoppingapp/features/product_details/screens/product_details_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../common/widgets/loader.dart';

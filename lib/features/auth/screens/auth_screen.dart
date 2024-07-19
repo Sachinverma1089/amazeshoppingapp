@@ -1,5 +1,6 @@
-import 'package:amazon_clone_project/common/widgets/custom_button.dart';
-import 'package:amazon_clone_project/common/widgets/custom_textfield.dart';
+
+import 'package:amazeshoppingapp/common/widgets/custom_button.dart';
+import 'package:amazeshoppingapp/common/widgets/custom_textfield.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/global_variables.dart';

@@ -1,4 +1,4 @@
-import 'package:amazon_clone_project/features/account/widgets/top_buttons.dart';
+import 'package:amazeshoppingapp/features/account/widgets/top_buttons.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/global_variables.dart';

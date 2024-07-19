@@ -1,5 +1,6 @@
-import 'package:amazon_clone_project/features/admin/screens/analytics_screen.dart';
-import 'package:amazon_clone_project/features/admin/screens/posts_screen.dart';
+
+import 'package:amazeshoppingapp/features/admin/screens/analytics_screen.dart';
+import 'package:amazeshoppingapp/features/admin/screens/posts_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/global_variables.dart';

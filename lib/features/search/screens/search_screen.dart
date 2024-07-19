@@ -1,5 +1,6 @@
-import 'package:amazon_clone_project/features/product_details/screens/product_details_screen.dart';
-import 'package:amazon_clone_project/features/search/services/search_services.dart';
+
+import 'package:amazeshoppingapp/features/product_details/screens/product_details_screen.dart';
+import 'package:amazeshoppingapp/features/search/services/search_services.dart';
 import 'package:flutter/material.dart';
 
 import '../../../common/widgets/loader.dart';

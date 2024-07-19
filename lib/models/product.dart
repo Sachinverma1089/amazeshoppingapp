@@ -1,6 +1,6 @@
 import 'dart:convert';
+import 'package:amazeshoppingapp/models/rating.dart';
 
-import 'package:amazon_clone_project/models/rating.dart';
 
 class Product {
   final String name;

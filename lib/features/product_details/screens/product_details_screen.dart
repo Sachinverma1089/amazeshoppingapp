@@ -1,4 +1,5 @@
-import 'package:amazon_clone_project/common/widgets/stars.dart';
+
+import 'package:amazeshoppingapp/common/widgets/stars.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';

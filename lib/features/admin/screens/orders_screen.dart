@@ -1,6 +1,6 @@
-import 'package:amazon_clone_project/common/widgets/loader.dart';
-import 'package:amazon_clone_project/features/account/widgets/single_product.dart';
-import 'package:amazon_clone_project/features/admin/services/admin_service.dart';
+import 'package:amazeshoppingapp/common/widgets/loader.dart';
+import 'package:amazeshoppingapp/features/account/widgets/single_product.dart';
+import 'package:amazeshoppingapp/features/admin/services/admin_service.dart';
 import 'package:flutter/material.dart';
 
 import '../../../models/order.dart';

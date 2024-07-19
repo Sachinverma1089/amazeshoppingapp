@@ -1,8 +1,8 @@
-import 'package:amazon_clone_project/constants/global_variables.dart';
-import 'package:amazon_clone_project/features/account/screens/account_screen.dart';
-import 'package:amazon_clone_project/features/cart/screen/cart_screen.dart';
-import 'package:amazon_clone_project/features/home/screens/home_screen.dart';
-import 'package:amazon_clone_project/providers/user_provider.dart';
+import 'package:amazeshoppingapp/constants/global_variables.dart';
+import 'package:amazeshoppingapp/features/account/screens/account_screen.dart';
+import 'package:amazeshoppingapp/features/cart/screen/cart_screen.dart';
+import 'package:amazeshoppingapp/features/home/screens/home_screen.dart';
+import 'package:amazeshoppingapp/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

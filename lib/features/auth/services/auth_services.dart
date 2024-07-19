@@ -1,9 +1,8 @@
 import 'dart:convert';
-import 'package:amazon_clone_project/common/widgets/bottom_bar.dart';
-import 'package:amazon_clone_project/constants/utils.dart';
-import 'package:amazon_clone_project/features/home/screens/home_screen.dart';
-import 'package:amazon_clone_project/providers/user_provider.dart';
-import 'package:amazon_clone_project/providers/user_provider.dart';
+
+import 'package:amazeshoppingapp/common/widgets/bottom_bar.dart';
+import 'package:amazeshoppingapp/constants/utils.dart';
+import 'package:amazeshoppingapp/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';

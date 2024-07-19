@@ -1,5 +1,5 @@
-import 'package:amazon_clone_project/features/admin/services/admin_service.dart';
-import 'package:amazon_clone_project/features/admin/widgets/category_products_chart.dart';
+import 'package:amazeshoppingapp/features/admin/services/admin_service.dart';
+import 'package:amazeshoppingapp/features/admin/widgets/category_products_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_chart/flutter_chart.dart';
 
