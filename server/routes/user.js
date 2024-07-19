@@ -107,7 +107,7 @@ userRouter.post('/api/order',auth,async(req,res)=>{
       products,
       totalPrice,
       address,
-      userId: req.user.toString(),
+      userId: req.user,
       orderedAt: Date.now(),
     });
     order = await order.save();
@@ -125,7 +125,7 @@ userRouter.post('/api/order',auth,async(req,res)=>{
 
 userRouter.get('/api/orders/me',auth,async(req,res)=>{
   try {
-    let orders = await Order.findById({userId:req.user});
+    let orders = await Order.find({userId:req.user});
     res.json(orders);
   } catch (error) {
     res.status(500).json({error:error.message});

@@ -20,12 +20,13 @@ const orderSchema = mongoose.Schema({
         type:String,
         required:true,
     },
-    userId:{
-        required:true,
-        type:String,
+    userId: {
+        required: true,
+        type: mongoose.Schema.Types.ObjectId, // Change to ObjectId
+        ref: 'User' // Reference to the User model
     },
     orderedAt:{
-        type:Number,
+        type:Date,
         default:Date.now,
         
     },
