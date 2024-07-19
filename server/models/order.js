@@ -24,9 +24,9 @@ const orderSchema = mongoose.Schema({
         required:true,
         type:String,
     },
-    orederAt:{
+    orderedAt:{
         type:Number,
-        required:true,
+        
     },
     status:{
         type:Number,
